@@ -1,0 +1,72 @@
+login.css*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	background:#fff;
+}
+#header{
+	width:65%;
+	height: 50px;
+	margin: 0 auto;
+/*	background: url("../image/logo.jpg") no-repeat;
+	background-size: 50px 50px;*/
+}
+#header img{
+	width: 50px;
+	height: 50px;
+
+	float: left;
+
+}
+
+#header b{
+	float: left;
+	line-height: 50px;
+	font-size: 24px; 
+}
+
+#content{
+
+	width: 600px;
+	margin: 50px auto;
+	
+}
+
+#content h2{
+	text-align: center;
+	font-size: 38px;
+	color: #EA5E00;
+	font-weight: 700;
+}
+
+#content input[type="text"]{
+	margin-left:100px;
+}
+
+#content input[type="password"]{
+	margin-left:100px;
+}
+
+#content img{
+	margin-left:100px;
+}
+
+#content p{
+	float: right;
+	margin-left:200px;
+}
+
+button[type="submit"]{
+	font-weight: 700;
+	padding: 10px 150px;
+	background: #B40707;
+	color: #fff;
+
+	margin-left: 20px;
+}
+button[type="submit"]:hover{
+	background: #B40707;
+	color: #fff;
+}

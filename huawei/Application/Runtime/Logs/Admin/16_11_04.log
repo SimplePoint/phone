@@ -1,0 +1,121 @@
+[ 2016-11-04T08:41:41+08:00 ] ::1 /huawei/index.php/Admin/Upload/upload.html
+ERR: 无法加载控制器:Upload
+
+[ 2016-11-04T08:42:16+08:00 ] ::1 /huawei/index.php/Admin/Upload/upload.html
+ERR: 无法加载控制器:Upload
+
+[ 2016-11-04T08:47:04+08:00 ] ::1 /huawei/index.php/Admin/Upload/upload.html
+ERR: 无法加载控制器:Upload
+
+[ 2016-11-04T08:47:26+08:00 ] ::1 /huawei/index.php/Admin/Upload/upload.html
+ERR: 无法加载控制器:Upload
+
+[ 2016-11-04T09:13:02+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1146:Table 'huawei.huawei_index' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `huawei_index`
+
+[ 2016-11-04T09:37:19+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: Think\Model:upload方法不存在！
+
+[ 2016-11-04T09:38:08+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: Think\Model:upload方法不存在！
+
+[ 2016-11-04T09:38:10+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: Think\Model:upload方法不存在！
+
+[ 2016-11-04T09:54:16+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'799','哈哈哈')
+
+[ 2016-11-04T09:55:30+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'799','哈哈哈')
+
+[ 2016-11-04T09:55:32+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'799','哈哈哈')
+
+[ 2016-11-04T09:55:54+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'800','滴滴答答的')
+
+[ 2016-11-04T09:56:17+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'800','滴滴答答的')
+
+[ 2016-11-04T09:56:19+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'800','滴滴答答的')
+
+[ 2016-11-04T09:56:39+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'799','是事实')
+
+[ 2016-11-04T09:57:42+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'799','是事实')
+
+[ 2016-11-04T09:57:44+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'799','是事实')
+
+[ 2016-11-04T09:58:19+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'799','是事实')
+
+[ 2016-11-04T09:58:52+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'799','是事实')
+
+[ 2016-11-04T09:58:57+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1048:Column 'product_image' cannot be null
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`) VALUES ('荣耀5c',NULL,'799','是事实')
+
+[ 2016-11-04T10:23:10+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf10ea845c.jpg','1990','流光溢彩','1')
+
+[ 2016-11-04T10:25:20+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf19052f19.jpg','1990','流光溢彩','1')
+
+[ 2016-11-04T10:25:36+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf1a0cc40e.jpg','1999','流光溢彩','1')
+
+[ 2016-11-04T10:30:08+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf2b0275bf.jpg','1999','流光溢彩','1')
+
+[ 2016-11-04T10:30:09+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf2b198339.jpg','1999','流光溢彩','1')
+
+[ 2016-11-04T10:30:37+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf2cd9920d.jpg','1999','流光溢彩','1')
+
+[ 2016-11-04T10:31:49+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf31519f12.jpg','1999','流光溢彩','1')
+
+[ 2016-11-04T10:32:27+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf33bd7acb.jpg','1999','流光溢彩','1')
+
+[ 2016-11-04T10:32:43+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf34bbf428.jpg','1999','流光溢彩','2')
+
+[ 2016-11-04T10:33:33+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf37de48f7.jpg','1999','流光溢彩','2')
+
+[ 2016-11-04T10:33:46+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`category_id`) VALUES ('华为p9','581bf38aae8e2.jpg','1999','流光溢彩','2')
+
+[ 2016-11-04T10:36:59+08:00 ] ::1 /huawei/index.php/Admin/Index/upload.html
+ERR: 1062:Duplicate entry '0' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `huawei_product` (`product_name`,`product_image`,`product_price`,`product_info`,`data_added`,`category_id`) VALUES ('荣耀5c','581bf44b07afd.jpg','799','哈哈哈','1478227018','1')
+

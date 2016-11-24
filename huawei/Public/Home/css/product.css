@@ -1,0 +1,347 @@
+/*product.css*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#content{
+	width: 90%;
+	height: 642px;
+
+	margin: 40px auto;
+
+	border: 1px solid #ccc;
+}
+
+.content_left{
+	float: left;
+}
+
+.content_left img{
+	width: 480px;
+	height: 480px;
+
+	margin: 20px 50px;
+}
+
+.content_left ul{
+	text-align: center;
+
+}
+
+.content_left li{
+	display: inline-block;
+	width: 64px;
+	height: 64px;
+
+	border: 1px solid #ccc;
+
+}
+
+.content_left li:first-child{
+	width: 30px;
+	height: 30px;
+
+	border: 3px solid #ccc;
+	border-right: none;
+	border-bottom: none;
+
+	transform:rotate(-45deg);
+
+	margin-bottom: 15px;
+}
+
+.content_left li:last-child{
+	width: 30px;
+	height: 30px;
+
+	border: 3px solid #ccc;
+	border-right: none;
+	border-bottom: none;
+
+	transform:rotate(135deg);
+
+	margin-bottom: 15px;
+}
+.content_right{
+	float: right;
+
+	width: 50%;
+	height: 642px;
+
+	border-left:1px solid #ccc; 
+
+}
+
+.content_right h4{
+	margin:20px 20px;
+}
+
+.content_right .p1{
+	margin:20px 20px;
+	line-height: 30px;
+
+	color: red;
+}
+
+.content_right .p2{
+	margin:20px 20px;
+}
+
+.content_right .p2 .b2{
+	font-size: 32px;
+
+	color: red;
+}
+
+.content_right .p2 .b1{
+	font-size: 14px;
+
+	color: red;
+}
+
+.system p{
+	float: left;
+
+	margin: 20px 0px 0px 20px;
+}
+
+.system ul{
+	float: left;
+}
+
+.system ul li{
+	display: inline-block;
+
+	height: 26px;
+	width: 78px;
+
+	border: 1px solid #ccc;
+
+	line-height: 26px;
+	text-align: center;
+
+	cursor: pointer;
+	margin: 16px 0px 0px 4px;
+	font-size: 12px;
+}
+
+.capacity p{
+	float: left;
+
+	margin: 10px 0px 0px 20px;
+}
+
+.capacity ul{
+	float: left;
+}
+
+.capacity ul li{
+	display: inline-block;
+
+	height: 26px;
+	width: 78px;
+
+	border: 1px solid #ccc;
+
+	line-height: 26px;
+	text-align: center;
+
+	cursor: pointer;
+	margin: 6px 0px 0px 4px;
+	font-size: 12px;
+}
+.service a{
+	text-decoration: none;
+}
+.service p{
+	float: left;
+
+	margin: 10px 0px 0px 20px;
+}
+
+.service ul{
+	float: left;
+
+	position: relative;
+
+	height: 26px;
+}
+
+
+.service ul li{
+	display: inline-block;
+
+	height: 26px;
+	width: 208px;
+
+	border: 1px solid #ccc;
+
+	line-height: 26px;
+	text-align: center;
+
+	cursor: pointer;
+	margin: 6px 0px 0px 4px;
+	font-size: 12px;
+}
+
+.service .service_erji{
+	display: none;
+
+	position: absolute;
+	left: 0;
+	top: 26px;
+}
+.service .service_erji li:last-child{
+	position: absolute;
+
+	top: 26px;
+	left: 0;
+}
+
+.service .first:hover .service_erji{
+	display: block;
+}
+
+.service i{
+
+	float: right;
+	display: block;
+	width: 6px;
+	height: 6px;
+
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+
+	margin: 8px 8px 0px 0px;
+
+	transform:rotate(45deg);
+
+}
+
+.service .first:hover i{
+	transform:rotate(-135deg);
+}
+
+.service .last:hover i{
+	transform:rotate(-135deg);
+}
+.service .last{
+	width: 280px;
+	height: 26px;
+
+	position: relative;
+}
+
+.service .last ul{
+	position: absolute;
+
+	top: 18px;
+	left: -4px;
+
+	display: none;
+}
+
+.service .last ul li{
+	width: 280px;
+	height: 26px;
+
+	position: absolute;
+
+
+}
+
+.service .last ul li:last-child{
+	top: 26px;
+}
+
+.service .last:hover ul{
+	display: block;
+}
+
+.num p{
+	float: left;
+
+	margin: 6px 0px 0px 20px;
+}
+
+.num li{
+	text-align: center;
+	line-height: 26px;
+
+	cursor: pointer;
+
+	margin: 0px 0px 0px 2px;
+}
+
+.num li:first-child{
+	float: left;
+	width: 26px;
+	height: 26px;
+
+	border:1px solid #ccc;
+
+}
+
+.num li:nth-child(2){
+	float: left;
+	width: 47px;
+	height: 26px;
+	border:1px solid #ccc
+}
+
+.num li:last-child{
+	float: left;
+	width: 26px;
+	height: 26px;
+
+	border:1px solid #ccc;
+
+}
+
+.select p{
+	margin: 10px 0px 0px 20px;
+}
+
+.select i{
+	color: red;
+	font-style: normal;
+}
+.button1{
+	background: red;
+	width: 190px;
+	height: 42px;
+
+	margin: 20px 20px;
+
+	line-height: 42px;
+
+	color: #fff;
+	font-weight: 700;
+
+	border:none;
+}
+
+.button1 img{
+	width: 20px;
+	height: 20px;
+
+	margin-right:10px; 
+}
+
+.button2{
+	background: #FF5C14;
+	width: 190px;
+	height: 42px;
+
+	margin: 20px 20px;
+
+	line-height: 42px;
+
+	color: #fff;
+
+	font-weight: 700;
+	border:none;
+}
+

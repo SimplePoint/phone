@@ -1,0 +1,12 @@
+[ 2016-10-30T13:41:18+08:00 ] ::1 /huawei/Public/Home/libs//jquery-1.11.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+ERR: 无法加载模块:Public
+
+[ 2016-10-30T13:41:18+08:00 ] ::1 /huawei/Public/Home/libs//bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+ERR: 无法加载模块:Public
+

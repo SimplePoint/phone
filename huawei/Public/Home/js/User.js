@@ -1,0 +1,31 @@
+$(document).ready(function(){
+	$(".phone").click(function(){
+		$(".phone").css({
+			"background":"red"
+		});
+		$(".email").css({
+			"background":"#999999"
+		});
+		$("#phone").css({
+			"display":"block"
+		});
+		$("#email").css({
+			"display":"none"
+		});
+	});
+
+		$(".email").click(function(){
+		$(".email").css({
+			"background":"red"
+		});
+		$(".phone").css({
+			"background":"#999999"
+		});
+		$("#email").css({
+			"display":"block"
+		});
+		$("#phone").css({
+			"display":"none"
+		});
+	});
+});

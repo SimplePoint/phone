@@ -1,0 +1,149 @@
+<include file="Common:header" />
+<div class="common"> 	
+ <div class="slider"> 
+  <ul class="slider-main"> 
+   <li class="slider-panel"> 
+    <a href="" target="_blank"><img alt="" title="" src="__IMAGE__/1.jpg"></a> 
+   </li> 
+   <li class="slider-panel"> 
+    <a href="" target="_blank"><img alt="" title="" src="__IMAGE__/2.jpg"></a> 
+   </li> 
+   <li class="slider-panel"> 
+    <a href="" target="_blank"><img alt="" title="" src="__IMAGE__/3.jpg"></a> 
+   </li> 
+   <li class="slider-panel"> 
+    <a href="" target="_blank"><img alt="" title="" src="__IMAGE__/4.jpg"></a> 
+   </li> 
+  </ul> 
+  <div class="slider-extra"> 
+   <ul class="slider-nav"> 
+    <li class="slider-item">1</li> 
+    <li class="slider-item">2</li> 
+    <li class="slider-item">3</li> 
+    <li class="slider-item">4</li> 
+   </ul> 
+  <!--  <div class="slider-page"> 
+    <a class="slider-pre" href="javascript:;;"><</a> 
+    <a class="slider-next" href="javascript:;;">></a> 
+   </div>  -->
+  </div>
+ </div> 
+ </div>
+ <div class="cont hot">
+ 	<div class="item">
+		<ul>
+			<li class="item1"><a href="">实名认证</a></li>
+			<li class="item2"><a href="">以旧换新</a></li>
+			<li class="item3"><a href="">优购码</a></li>
+			<li class="item4"><a href="">开售提醒</a></li>
+			<li class="item5"><a href="">公告</a></li>
+			<li class="item6"><a href="">特权频道</a></li>
+		</ul>
+	</div>
+ 	<div class="item-r">
+ 		<ul>
+	 		<li><a href=""><img src="__IMAGE__/hot1.jpg" alt=""></a></li>
+	 		<li><a href=""><img src="__IMAGE__/hot2.jpg" alt=""></a></li>
+	 		<li><a href=""><img src="__IMAGE__/hot3.jpg" alt=""></a></li>
+ 		</ul>
+ 	</div>
+ 	<div class="clear"></div>
+</div>
+<div class="cont hot-pro">
+	<h3>热销推荐</h3>
+		<div class="list">
+
+		<ul>
+		<volist name="Products" id="vo">
+
+			<li class="list1">
+				<div class="list-p" >
+				<i style="display:none;">{$vo.product_id}</i>
+				<a href="{:U('Product/productDetails')}?id={$vo.product_id}"><img src="__UPLOAD__/{$vo.product_image}" alt="" id="host{$i}"></a>
+					<a href="">
+						<h5>{$vo.product_name}</h5>
+						<p>{$vo.product_info}</p>
+						<i>￥{$vo.product_price}</i>
+					</a>
+				</div>
+			</li>
+	
+			</volist>
+		</ul>
+	</div>
+
+	<div class="clear"></div>
+</div>
+<div class="cont news1">
+	<a href=""><img src="__IMAGE__/new1.png" alt=""></a>
+</div>
+<div class="product-bg">
+	<div class="cont prudect">
+		<div class="product-top">
+			<h3>精品手机</h3>
+			<span>—&emsp;<a href="">更多</a>&emsp;—</span>
+		</div>
+		<!-- <div class="prudect-left"></div> -->
+		<div class="prudect-right">
+		
+			<ul>
+			<volist name="sales" id="sa">
+				<li><a href="{:U('Product/productDetails')}?id={$sa.product_id}"><img src="__UPLOAD__/{$sa.product_image}" alt=""></a>
+					<div class="jieshao">
+						<h5>{$sa.product_name}</h5>
+						<p>{$sa.product_info}</p>
+						<i>￥{$sa.product_price}</i>
+					</div>
+
+				</li>
+
+			</volist>	
+			</ul>
+
+		
+		</div>
+	</div>
+	<div class="cont news1 news2">
+		<a href=""><img src="__IMAGE__/new2.jpg" alt=""></a>
+	</div>
+</div>
+<div class="slogan-cont">
+	<div class="cont slogan">
+		<ul>
+			<li class="sl1">
+				<i></i>
+				500强企业 品质保证
+			</li>
+			<li class="sl2">
+				<i></i>
+				7天退货 15天换货
+			</li>
+			<li class="sl3">
+				<i></i>
+				99元起免运费
+			</li>
+			<li class="sl4">
+				<i></i>
+				448家维修站点 全国联保
+			</li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+</div>
+<script>
+	// for(var i=1;i<6;i++){
+	// 	(function(){
+	// 		var index = i;
+	// 		$("#host"+index).click(function(){
+	// 		var id = $(this).prev().text();
+	// 		alert(id);
+	// 		$.post('http://localhost/huawei/Home/Product/productDetails')
+	// 		});
+	// 	})()
+		
+
+	// }
+
+</script>
+<include file="Common:footer" />
+

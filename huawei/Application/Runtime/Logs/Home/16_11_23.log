@@ -1,0 +1,150 @@
+[ 2016-11-23T19:08:25+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0057s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=30 ) [ RunTime:0.1649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002443s ]
+
+[ 2016-11-23T19:09:33+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0037s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=30 ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-11-23T19:09:33+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0036s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=30 ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2016-11-23T19:09:43+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0038s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=29 ) [ RunTime:0.1438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001752s ]
+
+[ 2016-11-23T19:10:46+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001898s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0122s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=20 ) [ RunTime:0.0694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-11-23T19:11:09+08:00 ] ::1 /huawei/index.php/Home/Cart/chuanshuju
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001222s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0034s ]
+SQL: INSERT INTO `huawei_cart` (`date`,`product_system`,`product_capacity`,`product_service1`,`product_service2`,`product_num`,`product_id`) VALUES ('2016-11-23','全网通版','4G+64G','','','1','25') [ RunTime:0.1168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002327s ]
+
+[ 2016-11-23T19:12:38+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0049s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=31 ) [ RunTime:0.1246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002312s ]
+
+[ 2016-11-23T19:12:41+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0038s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=31 ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+
+[ 2016-11-23T19:13:07+08:00 ] ::1 /huawei/index.php/Home/Cart/chuanshuju
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003840s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0056s ]
+SQL: INSERT INTO `huawei_cart` (`date`,`product_system`,`product_capacity`,`product_service1`,`product_service2`,`product_num`,`product_id`) VALUES ('2016-11-23','全网通版','4G+64G','','','2','25') [ RunTime:0.0827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001672s ]
+
+[ 2016-11-23T19:13:29+08:00 ] ::1 /huawei/index.php/Home/Cart/chuanshuju
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0036s ]
+SQL: INSERT INTO `huawei_cart` (`date`,`product_system`,`product_capacity`,`product_service1`,`product_service2`,`product_num`,`product_id`) VALUES ('2016-11-23','全网通版','3G+32G','','','1','25') [ RunTime:0.1039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002272s ]
+
+[ 2016-11-23T19:15:16+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0054s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=33 ) [ RunTime:0.1051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2016-11-23T19:16:57+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0037s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=32 ) [ RunTime:0.0674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002553s ]
+
+[ 2016-11-23T19:21:03+08:00 ] ::1 /huawei/index.php/Home/Cart/chuanshuju
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0272s ]
+SQL: INSERT INTO `huawei_cart` (`date`,`product_system`,`product_capacity`,`product_service1`,`product_service2`,`product_num`,`product_id`) VALUES ('2016-11-23','全网通版','3G+32G','','','1','25') [ RunTime:0.0785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-11-23T19:21:07+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0074s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=34 ) [ RunTime:0.1182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-11-23T19:21:10+08:00 ] ::1 /huawei/index.php/Home/Cart/shanchu
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+SQL: SHOW COLUMNS FROM `huawei_cart` [ RunTime:0.0075s ]
+SQL: DELETE FROM `huawei_cart` WHERE ( cart_id=34 ) [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+

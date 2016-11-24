@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>华为手机商城</title>
+	<link rel="shortcut icon" href="__IMAGE__/favicon.ico">
+	<link rel="stylesheet" href="__CSS__/bootstrap.min.css">
+	<link rel="stylesheet" href="__CSS__/style1.css">
+	<link rel="stylesheet" href="__CSS__/slider.css">
+	<link rel="stylesheet" href="__CSS__/honor.css">
+	<script src="__LIBS__/jquery-1.11.3.js"></script>
+	<script src="__LIBS__/bootstrap.min.js"></script>
+	<script src="__JS__/slider.js"></script>
+	<script src="__JS__/index.js"></script>
+</head>
+<body>
+
+<nav name="top">
+	<ul class="top-left" >
+		<li><a href="{:U('Index/index')}">华为商城</a></li>
+		<li><i>|</i></li>
+		<li><a href="{:U('Honor/honor')}">荣耀系列</a></li>
+		<li><i>|</i></li>
+		<li><a href="">P系列</a></li>
+		<li><i>|</i></li>
+		<li><a href="">mate系列</a></li>
+	</ul>
+	<ul class="top-right">
+		<?php 
+			if (isset($_SESSION['username'])) { ?>	
+				<li ><a >{$Think.session.username},欢迎你</a></li>
+				<li style="width:40px"><a href="{:U('User/loginOff')}">注销</a></li>
+			<?php
+			}else{
+			?>
+				<li style="width:40px"><a href="{:U('User/login')}">登陆</a></li>
+				<li style="width:40px"><a href="{:U('User/regphone')}">注册</a></li>
+			<?php
+			}
+		 	?>
+		<li><i>|</i></li>
+		<li style="width:80px;"><a href="{:U('Cart/cart')}">我的订单</a></li>
+		<li><i>|</i></li>
+		<li style="width:85px;"><a href="">网站导航<i></i></a>
+			<div class="top-two">
+				<ul>
+					<li><a href="">帮助中心</a></li>
+					<li><a href="">PC软件</a></li>
+					<li><a href="">数字音乐</a></li>
+					<li><a href="">爱旅</a></li>
+					<li><a href="">华为网盘</a></li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+<div class="bar">
+	<div class="top-bar" >
+		<a href="#top"><img src="__IMAGE__/top.png" alt=""></a>
+	</div>
+	<div class="top-info" >
+		<a href="#top">返回<br>顶部</a>
+		
+	</div>
+	
+</div>
+</nav>
+<div class="clear"></div>
+<!-- 中部导航 -->
+<div class="cont banner">
+	<div class="logo">
+		<h1 style="color:#00B5E2;">荣耀专区</h1>
+	</div>
+	<div class="search">
+		<form action="" class="form-search">
+			<div class="search_mid">
+				<input type="text" class="phone_search">
+				<button type="button" class="btn btn-danger" style="background:#00B5E2;border:none">搜索
+				</button>
+			</div>
+		</form>
+	</div>	
+	<div class="cart">
+		<i></i>
+		<a href="{:U('Cart/cart')}">
+			购物车
+		</a>
+		<div class="cart-body">
+			<i id="cart-bg"></i>
+			<p>您的购物车是空的，赶紧选购吧！</p>
+		</div>
+		<div class="hid"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="nav">
+	<div class="cont nav-mid">
+		<div class="nav-mid-both" style="background:black">
+			<h2>全部商品</h2>
+			<div class=" nav-mid-bar" style="background:black;opacity:0.8;">
+				<div class="bar-info" >
+					<div class="bar-info-1" id="bar-info-1">
+						<h4><a href="" style="color:#fff">手机</a></h4> 
+						<span><a href="">荣耀</a></span>
+						<span><a href="">畅玩</a></span>
+						<span><a href="">华为MaTe</a></span>
+						<div class="bar-info-2">
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">荣耀</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>			
+						</div>
+					</div>
+				</div>
+			
+				<div class="bar-info">
+					<div class="bar-info-1" id="bar-info-1">
+						<h4><a href="" style="color:#fff">平板</a></h4> 
+						<span><a href="">荣耀</a></span>
+						<span><a href="">畅玩</a></span>
+						<span><a href="">华为MaTe</a></span>
+						<div class="bar-info-2">
+							<p><a href="">华为MaTe 5</a></p>
+							<p><a href="">荣耀7</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩6</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+						</div>
+					</div>
+				</div>
+			
+				<div class="bar-info">
+					<div class="bar-info-1" id="bar-info-1">
+						<h4><a href="" style="color:#fff">智能家居</a></h4> 
+						<span><a href="">荣耀</a></span>
+						<span><a href="">畅玩</a></span>
+						<span><a href="">华为MaTe</a></span>
+						<div class="bar-info-2">
+							<p><a href="">华为P9</a></p>
+							<p><a href="">荣耀</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+						</div>
+					</div>
+				</div>
+			
+				<div class="bar-info">
+					<div class="bar-info-1" id="bar-info-1">
+						<h4><a href="" style="color:#fff">手表</a></h4> 
+						<span><a href="">荣耀</a></span>
+						<span><a href="">畅玩</a></span>
+						<span><a href="">华为MaTe</a></span>
+						<div class="bar-info-2">
+							<p><a href="">荣耀V9</a></p>
+							<p><a href="">荣耀</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+						</div>
+					</div>
+				</div>
+			
+				<div class="bar-info">
+					<div class="bar-info-1" id="bar-info-1">
+						<h4><a href="" style="color:#fff">手机</a></h4> 
+						<span><a href="">畅玩X5</a></span>
+						<span><a href="">荣耀</a></span>
+						<span><a href="">华为MaTe</a></span>
+						<div class="bar-info-2">
+							<p><a href="">畅玩B5</a></p>
+							<p><a href="">荣耀</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+						</div>
+					</div>
+				</div>
+			
+				<div class="bar-info">
+					<div class="bar-info-1" id="bar-info-1">
+						<h4><a href="" style="color:#fff">配件</a></h4> 
+						<span><a href="">荣耀</a></span>
+						<span><a href="">畅玩</a></span>
+						<span><a href="">华为MaTe</a></span>
+						<div class="bar-info-2">
+							<p><a href="">华为耳机</a></p>
+							<p><a href="">荣耀充电线</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="bar-info">
+					<div class="bar-info-1" id="bar-info-1">
+						<h4><a href="" style="color:#fff">应用市场</a></h4> 
+						<span><a href="">荣耀</a></span>
+						<span><a href="">畅玩</a></span>
+						<span><a href="">华为MaTe</a></span>
+						<div class="bar-info-2">
+							<p><a href="">华为P5</a></p>
+							<p><a href="">荣耀X8</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+							<p><a href="">畅玩</a></p>
+							<p><a href="">华为MaTe</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul>
+			<li><a href="{:U('Index/index')}">首页</a></li>
+			<li><a href="{:U('Honor/honor')}">荣耀系列</a></li>
+			<li><a href="javascript:;">P系列</a></li>
+			<li><a href="javascript:;">mate系列</a></li>
+			<li><a href="javascript:;">热门促销</a></li>
+			<li><a href="javascript:;">最新产品</a></li>
+		</ul>
+	</div>
+	<div class="clear"></div>
+</div>	
+
+
+

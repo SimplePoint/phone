@@ -1,0 +1,68 @@
+<include file="Common:cart-header" />
+<link rel="stylesheet" href="__CSS__/cart.css">
+<div class="cart-list">
+
+<div id="nav">
+	<ul>
+		<li style="margin-left:60px;"><input type="checkbox" name="phone" onclick="checkAll(this)" value="0" id="ck">全选</li>
+		<li style="margin-left:140px;">商品信息</li>
+		<li style="margin-left:320px;">单价</li>
+		<li style="margin-left:80px;">数量</li>
+		<li style="margin-left:80px;">总金额</li>
+		<li style="margin-left:80px;">操作</li>
+	</ul>
+</div>
+<volist name="cartshow" id="vo">
+<div id="cart" class="cart_{$i}">
+	<div class="cart_hd">
+		<p>{$vo.product_info}<b class="b1">{$vo.product_service1}</b><b class="b2">{$vo.product_service2}</b></p>
+
+	</div>
+	
+	<div class="cart_cont">
+		<ul>
+		
+			<li><input type="checkbox" class="checkbox" name="phone" value="" onclick="gouwu(this)"></li>
+			<li>
+			<img src="__UPLOAD__/{$vo.product_image}" alt="">
+			<i>{$vo.product_name}</i>
+
+			</li>
+			<li>
+				<i>{$vo.product_system}/{$vo.product_capacity}</i>
+			</li>
+			<li>
+				<i class="price">￥{$vo.product_price}</i>
+			</li>
+			<li>
+				<i class="num">X{$vo.product_num}</i>
+			</li>
+			<li id="all">
+				<i class="priceall">总价</i>
+			</li>
+			<li>
+				<input type="button" class="button_{$i}" value="删除" id="button">
+				<i style="display:none">{$vo.cart_id}</i>
+			</li>
+		
+		</ul>
+	</div>
+
+	<div class="cart_info"></div>
+</div>
+</volist>
+</div>
+<div>
+	<h1 style="margin-left:170px;">总价格：<span id="myspan">0元</span></h1>
+</div>
+
+<div class="cart-empty-msg">亲，您购物车里还没有物品哦，快去逛逛吧！</div>
+
+<div style="clear:both"></div>
+
+
+<script src="__JS__/cart.js"></script>
+<div style="width:90%;margin:0 auto;">
+	<include file="Common:footer" />
+</div>
+

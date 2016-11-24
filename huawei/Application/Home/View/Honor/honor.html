@@ -1,0 +1,122 @@
+<include file="Common:header-honor"/>
+<div class="honor-slider">
+ <div class="slider"> 
+  <ul class="slider-main"> 
+   <li class="slider-panel"> 
+    <a href="" target="_blank"><img alt="" title="" src="__IMAGE__/1.jpg"></a> 
+   </li> 
+   <li class="slider-panel"> 
+    <a href="" target="_blank"><img alt="" title="" src="__IMAGE__/2.jpg"></a> 
+   </li> 
+   <li class="slider-panel"> 
+    <a href="" target="_blank"><img alt="" title="" src="__IMAGE__/3.jpg"></a> 
+   </li> 
+   <li class="slider-panel"> 
+    <a href="" target="_blank"><img alt="" title="" src="__IMAGE__/4.jpg"></a> 
+   </li> 
+  </ul> 
+  <div class="slider-extra"> 
+   <ul class="slider-nav"> 
+    <li class="slider-item">1</li> 
+    <li class="slider-item">2</li> 
+    <li class="slider-item">3</li> 
+    <li class="slider-item">4</li> 
+   </ul> 
+
+  </div>
+  <div class="clear"></div>
+ </div> 
+</div>
+<div class="honor-main">
+  <div class="honor-pro">
+
+     <div class="honor-pro-1">
+        <img src="__IMAGE__honor1.jpg" alt="">
+     </div>
+     <div class="honor-pro-1">
+        <img src="__IMAGE__honor2.jpg" alt="">
+     </div>
+     <div class="honor-pro-1">
+        <img src="__IMAGE__honor3.jpg" alt="">
+     </div>
+     <div class="honor-pro-1">
+        <img src="__IMAGE__honor4.jpg" alt="">
+     </div> 
+
+     <div class="clear"></div>
+  </div>
+  <div class="honor-pro">
+
+      <div class="honor-pro-list">
+      <volist name="honor" id="honor">
+          <div class="pro-list-b">
+            <div class="pro-list-1">
+              <a href="">
+                <div class="pro-list-info">
+                  <h3>{$honor.product_name}</h3>
+                  <span>{$honor.product_info}</span> 
+                  <h5>{$honor.product_price}</h5>
+                </div>
+                <a href="{:U('Product/productDetails')}?id={$honor.product_id}"><img src="__UPLOAD__/{$honor.product_image}" alt=""></a>
+              </a>
+            </div>
+        </div>
+        </volist>
+
+      </div>
+    <div class="clear"></div>
+  </div>
+  <div class="honor-new">
+    <img src="__IMAGE__/20160926162438550.jpg" alt="">
+  </div>
+  <div class="b">
+      <div class="b-tit">
+        <h3>手机</h3>
+        <span>荣耀精品手机</span>
+      </div>
+      <div class="clear"></div>
+      <volist name="seven" id="seven">
+    <div class="b-left">
+      <div class="b-left-1">  
+          <a href="">
+            <a href="{:U('Product/productDetails')}?id={$seven.product_id}"><img src="__UPLOAD__/{$seven.product_image}" alt=""></a>
+            
+            <div class="b-left-info">
+              <div class="b-left-name">
+                  <h1>{$seven.product_name}</h1>
+                  <span>{$seven.product_info}</span>
+              </div>
+              <div class="b-left-price">
+                <h4>￥{$seven.product_price}</h4>
+                <button>立即抢购</button>
+              </div>   
+            </div>
+          </a>
+      </div>
+    </div>
+    </volist>
+   <ul>
+<volist name="six" id="six">
+     <li>
+       <div class="b-right">
+         <div class="b-right-1">
+            <a href="">
+              <a href="{:U('Product/productDetails')}?id={$six.product_id}"><img src="__UPLOAD__/{$six.product_image}" alt=""></a>
+              <div class="b-right-info">
+                <h5>{$six.product_name}</h5>
+                <span>{$six.product_info}</span>
+                <h4>{$six.product_price}</h4>
+              </div>
+          </a>
+         </div>
+       </div>
+     </li>
+</volist>    
+   </ul>
+    <div class="clear"></div>
+  </div>
+  <div class="honor-new2">
+    <a href="javascript:;"><img src="__IMAGE__/20160923092437178.jpg" alt=""></a>
+  </div>
+</div>    
+<include file="Common:footer"/>
